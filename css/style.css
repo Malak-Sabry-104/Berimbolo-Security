@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Gupter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montez&family=Mr+Dafoe&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face {
+  font-family: "Researcher";
+  src: url("../fonts/Researcher/Researcher\ Regular.ttf");
+}
+
+nav {
+  transition: all ease-in-out .4s;
+}
+nav .icon{
+  color: #0b4a74;
+}
+
+.blurry-nav {
+  background-color: rgba(173, 216, 230, 0.843) !important;
+  backdrop-filter: blur(4px);
+}
+
+.blurry-nav input {
+  background-color: rgba(255, 255, 255, 0.284) !important;
+}
+
+#sec1 h1{
+  font-size: 64px;
+  font-weight: 700;
+  margin: 20px 0;
+  font-family: "Researcher", sans-serif;
+  color: #286993;
+}
+#sec1 .btn1{
+  border: dotted 1px rgba(0, 0, 0, 0.572) !important;
+  
+}
+#sec1 img{
+  border-radius: 50% 10% 50% 10%/10% 50% 10% 50%;
+  box-shadow: rgba(0,0,0,0.150) 6px 15px 12px ;
+}
+#sec1 .padding{
+  padding: 70px 0 0 0;
+}
+#portfolio .orange-overlay {
+  background-color: #286893cf;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+#portfolio .orange-overlay p {
+  margin: 0 0 5px 0 !important;
+}
+.orange-overlay:hover {
+  opacity: 1 !important;
+}
+#portfolio .content {
+  padding: 7rem 0;
+}
+
+
+
+#portfolio .col-4 img, #portfolio .col-4 .inner {
+  height: 100%;
+  object-fit: cover;
+}
+#portfolio .icon{
+  text-align: center;
+  font-size: 40px;
+  color: #286993;
+  margin: 0 !important;
+  
+}
+
+.op-title {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 20px 0;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 16px;
+  text-transform: uppercase;
+}
+#testimonials {
+  padding: 3rem 0;
+}
+#testimonials .icon {
+  color: #286893cf;
+}
+#testimonials .content {
+  margin: 5rem 0 0 0;
+}
+#testimonials .title {
+  position: relative;
+}
+#testimonials .title::after {
+  content: "";
+  width: 3.5rem;
+  height: 3px;
+  background-color: #286893cf;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.testimonial h4 {
+  font-family: "Montez", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #2893449b;
+}
+#contact .title {
+  position: relative;
+  margin: 0 0 2rem 0;
+}
+#contact .title::after {
+  content: "";
+  width: 3.5rem;
+  height: 3px;
+  background-color: #286893cf;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contact {
+  padding: 6rem 0;
+  background-color: #EFF5FF;
+}
+.bg-nav {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.91) 0 0 5px;
+}
+.bg-nav a {
+  color: rgba(39, 39, 39, 0.823) !important ;
+}
+.orange-btn {
+  margin: 20px 0 0 0;
+  border-radius: 20px;
+  padding: 11px 17px;
+  text-transform: uppercase;
+  background-color: #286893cf;
+  font-size: 13px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.bg-light{
+  padding:  15px   0;
+}
+.bg-light .icons svg {
+font-size: 20px;
+color: #0b4a74;
+}
+.bg-light .icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+.bg-light p, h4{
+  font-size: 12px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.bg-light h4{
+  margin: 0 !important;
+}
+.btn-up{
+  background-color: #0b4a748d;
+  color: rgba(255, 255, 255, 0.862);
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 15px ;
+  transition: all ease-in-out .5s;
+  display: none;
+}
+.btn-up:hover{
+  background-color: #0b4a74;
+}
+
+
+@media screen and (max-width:576px) {
+  #sec1 h1{
+    font-size: 46px;
+  }
+}
+.logo{
+  width:40px;
+  box-shadow: none !important;
+
+}
+.logo-text{
+  margin:0 4px 0 6px !important;
+}
